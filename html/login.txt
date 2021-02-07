@@ -1,0 +1,30 @@
+<html>
+<head>
+
+<title>login page</title>
+
+
+</head>
+<body>
+
+
+<div class="login-box">
+<h1>login</h1>
+<div class= "textbox">
+
+<input type="text" placeholder="username"
+name="" vlaue="">
+
+</div>
+<div class="textbox">
+<i class="fa fa-lock" aria-hidden="true"></i>
+<input type="password" placeholder="password"
+name="" vlaue="" color="black">
+</div>
+
+<input class ="btn" type="button" name="" value="sign in" >
+</div>
+
+
+</body>
+</html>

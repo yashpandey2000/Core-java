@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>yash</title>
+<style >
+#name
+{
+background-color: black;
+text-align: center;
+Color: white;
+padding: 5px;}
+</style>
+</head>
+<body>
+<div style="border:2px solid red" id="name">
+
+<h3 style="color:red" > Personal Details</h3>
+ 
+ <label for="name" ><b>Name:</b></label>
+ <input type="text"  id="Name" name="Name"><br></br>
+ 
+ <label for="password"><b>password:</b></label>
+ <input type="text" id="password" name="password"><br></br>
+ 
+ <label for="Email id"><b>E-mail id:</b></label>
+ <input type="text" id="Email id" name="Email id" placeholder="email"><br><br>
+ 
+ 
+ <label for="gender"><b>Gender*</b> </label>
+ <input type="radio" id="Gender" name="Gender">Male
+ <input type="radio" id="Gender" name="Gender">Female<br><br>
+ 
+ 
+ <label for="contact"><b>contact#:</b></label>
+ <input type="text" id="contact" name="contact" ><br><br>
+ 
+ <h3 style="color:red">Educational Qualification</h3>
+ 
+ <label for="Degree" ><b>Degree:</b></label>
+ <select name="Degree">
+ <option value="-1" selected>--Select Group--</option><br></br>
+ <option value="">Associate's</option>
+ <option value="">Bachelor</option>
+ <option value="">Masters</option>
+ <option value="">Doctorate</option>
+ <option value="">Certificate/diploma</option>
+ <option value="">Graduate Certificates</option></select><br></br>
+ 
+ <label for="Engineering" ><b>Engineering:</b></label>
+ <select name="Engineering">
+ <option value="-1" selected>--Select Group--</option><br></br>
+ <option value="">computer science(CS)</option>
+ <option value="">Mechanical</option>
+ <option value="">Civil</option>
+ <option value="">Agricultural</option>
+ <option value="">Architecture</option>
+ <option value="">Designing</option></select><br></br>
+ 
+ <label for="hobbies"align="center"><b>Hobbies:</b> </label>
+ <input type="checkbox" id="hobbies" name="hobbies">Playing Chess
+ <input type="checkbox" id="hobbies" name="hobbies">Reading Books<br></br>
+ 
+ 
+ 
+ 
+ <h3 style="color:red">Address</h3>
+ 
+ <textarea =message"" rows="3" column="70" align="center"></textarea><br></br>
+ 
+ <label for="hobbies"align="center"><b>Attach resume:</b> </label>
+ <input type="button" value="Choose File"> No file chosen<br></br>
+ 
+ <input class="btn" type="button"  value = "submmit" >
+ 
+</div>
+</form>
+</body>
+</html>
