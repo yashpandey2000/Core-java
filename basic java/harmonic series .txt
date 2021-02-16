@@ -1,0 +1,36 @@
+package co.in.basic;
+import java.util.Scanner;
+
+public class harmonic {
+	
+	public static void main(String[] args) {
+		double i,n;
+		double sum=0;
+		double temp=0;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("enter any no. you want to enter :");
+		
+		 n = sc.nextDouble();
+		
+		
+		for( i=1;i<=n;i++) {
+			
+			temp=temp+i/1;
+			
+			System.out.println(+temp);
+			
+			sum=sum+(1/i);
+			
+			
+		}
+		
+		System.out.println("sum of harmonic series is :"+sum);
+	}
+	
+	
+	
+	
+
+}
