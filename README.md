@@ -1,2 +1,1 @@
-# yash-pandey
-WebDevloper
+Core Java
